@@ -84,7 +84,7 @@ func (ws *WebServer) Start() error {
 	}()
 
 	// Auto-open browser
-	go openBrowser(url)
+	//go openBrowser(url)
 
 	return nil
 }
