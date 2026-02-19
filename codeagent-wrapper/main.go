@@ -35,7 +35,7 @@ var useASCIIMode = os.Getenv("CODEAGENT_ASCII_MODE") == "true"
 
 // Lite mode: disable WebServer, reduce logging, faster post-message delay
 // Can be enabled via --lite flag or CODEAGENT_LITE_MODE=true environment variable
-var liteMode = os.Getenv("CODEAGENT_LITE_MODE") == "true"
+var liteMode = os.Getenv("CODEAGENT_LITE_MODE") == "false"
 
 // Test hooks for dependency injection
 var (
